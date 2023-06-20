@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>JS-primera</title>
+</head>
+<body>
+    <h1>Calculadora de pagos en cuotas</h1>
+    <p>Ingresa el monto y selecciona el tipo de cálculo:</p>
+    <input type="number" id="montoInput">
+    <select id="tipoCalculo">
+        <option value="condicional">Condicional</option>
+        <option value="ciclo">Ciclo</option>
+    </select>
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
